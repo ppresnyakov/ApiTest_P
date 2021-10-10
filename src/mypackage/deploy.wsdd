@@ -19,10 +19,10 @@
       <parameter name="className" value="mypackage.Hello_BindingImpl"/>
       <parameter name="wsdlPortType" value="Hello_PortType"/>
       <parameter name="typeMappingVersion" value="1.1"/>
+      <operation name="sayHello" qname="operNS:sayHello" xmlns:operNS="urn:examples:helloservice" returnQName="greeting" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="sayHello" >
+        <parameter qname="firstName" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
       <parameter name="allowedMethods" value="sayHello"/>
-      <
 
   </service>
-
-
 </deployment>
